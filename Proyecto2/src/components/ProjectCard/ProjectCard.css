@@ -1,0 +1,88 @@
+.project-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--dark-bg);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid var(--dark-bg);
+   background-color: var(dark-bg-secondary);
+   height:300px;
+
+  
+}
+.project-card:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: var(--dark-hover);
+    color: var(--dark-text);
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid var(--dark-bg);
+    background-color: var(--dark-bg-secondary);
+    overflow: hidden;
+}
+.project-card:hover img{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.project-card title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: var(--dark-accent-blue);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.project-card p{
+    font-size: 1rem;
+   
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.project-card a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.project-card a:hover{
+    color: var(--dark-accent-blue);
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+.project-card .tech{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8rem;
+    color: var(--dark-accent-blue)
+}
+.project-card .tech img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}

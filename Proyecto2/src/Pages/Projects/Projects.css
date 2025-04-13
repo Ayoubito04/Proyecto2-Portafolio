@@ -1,0 +1,45 @@
+:root {
+    /* 🎭 Modo Oscuro */
+    --dark-bg: #0D0D0D; /* Fondo principal */
+    --dark-bg-secondary: #1A1A1A; /* Fondo secundario */
+    --dark-text: #EAEAEA; /* Texto principal */
+    --dark-subtext: #C5C6C7; /* Subtítulos o texto menos importante */
+  
+    /* Colores de acento para Dark Mode */
+    --dark-accent-red: #FF2E63; /* Rojo neón */
+    --dark-accent-blue: #00ADB5; /* Azul eléctrico */
+    --dark-accent-purple: #6A0572; /* Morado profundo */
+    --dark-accent-green: #4ECCA3; /* Verde neón */
+    --dark-accent-orange: #FF5722; /* Naranja fuego */
+    --dark-hover: #393E46; /* Color para hover */
+  
+    /* ☀️ Modo Claro */
+    --light-bg: #FFFFFF; /* Fondo principal */
+    --light-bg-secondary: #F5F5F5; /* Fondo secundario */
+    --light-text: #222222; /* Texto principal */
+    --light-subtext: #555555; /* Subtítulos o texto menos importante */
+  
+    /* Colores de acento para Light Mode */
+    --light-accent-red: #FF6B6B; /* Rojo coral */
+    --light-accent-blue: #007BFF; /* Azul real */
+    --light-accent-green: #2ECC71; /* Verde esmeralda */
+    --light-accent-orange: #FFA500; /* Naranja cálido */
+    --light-accent-purple: #9B59B6; /* Lavanda */
+    --light-hover: #D6D6D6; /* Color para hover */
+  }
+.titulo{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+}
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}

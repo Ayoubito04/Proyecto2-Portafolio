@@ -1,0 +1,117 @@
+:root {
+    /* 🎭 Modo Oscuro */
+    --dark-bg: #0D0D0D; /* Fondo principal */
+    --dark-bg-secondary: #1A1A1A; /* Fondo secundario */
+    --dark-text: #EAEAEA; /* Texto principal */
+    --dark-subtext: #C5C6C7; /* Subtítulos o texto menos importante */
+  
+    /* Colores de acento para Dark Mode */
+    --dark-accent-red: #FF2E63; /* Rojo neón */
+    --dark-accent-blue: #00ADB5; /* Azul eléctrico */
+    --dark-accent-purple: #6A0572; /* Morado profundo */
+    --dark-accent-green: #4ECCA3; /* Verde neón */
+    --dark-accent-orange: #FF5722; /* Naranja fuego */
+    --dark-hover: #393E46; /* Color para hover */
+  
+    /* ☀️ Modo Claro */
+    --light-bg: #FFFFFF; /* Fondo principal */
+    --light-bg-secondary: #F5F5F5; /* Fondo secundario */
+    --light-text: #222222; /* Texto principal */
+    --light-subtext: #555555; /* Subtítulos o texto menos importante */
+  
+    /* Colores de acento para Light Mode */
+    --light-accent-red: #FF6B6B; /* Rojo coral */
+    --light-accent-blue: #007BFF; /* Azul real */
+    --light-accent-green: #2ECC71; /* Verde esmeralda */
+    --light-accent-orange: #FFA500; /* Naranja cálido */
+    --light-accent-purple: #9B59B6; /* Lavanda */
+    --light-hover: #D6D6D6; /* Color para hover */
+  }
+  
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    background-color: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-bg);
+    
+    
+    
+    
+}
+nav h1{
+  color:var(--dark-accent-blue);
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    
+    border: none;
+    
+    
+}
+nav button{
+   background-color: var(--dark-accent-blue);
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav button:hover{
+    background-color: var(--dark-hover);
+    color: var(--dark-text);
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+nav button:hover{
+    
+    
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+nav a{
+    text-decoration: none;
+background-color: var(--dark-accent-blue);
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+   color: var(--dark-hover);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    border:none;
+    
+}
+nav a:hover{
+   color: var(--dark-text);
+    background-color: var(--dark-hover);
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+

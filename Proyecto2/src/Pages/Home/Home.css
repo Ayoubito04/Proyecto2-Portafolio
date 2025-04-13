@@ -1,0 +1,35 @@
+
+.home-container p{
+display: flex;
+width: 50%;
+font-size: 1.2rem;
+padding: 20px;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-family: 'Courier New', Courier, monospace;
+margin-bottom: 20px;
+
+
+   
+    
+}
+ h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+}
+.home-container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 20px;
+
+
+}
