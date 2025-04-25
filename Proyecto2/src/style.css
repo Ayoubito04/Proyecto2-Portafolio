@@ -39,6 +39,7 @@ body {
     background-color: white;
     color: #00ADB5;
     transition: background-color 0.3s ease-in-out;
+    min-height: 100vh;
 }
 
 /* Modo oscuro */
